@@ -1,0 +1,133 @@
+ @import "./helpers/variables";
+.main{
+    color: $primary_1 ;
+    font-family:$font;
+    font-style: normal;
+}
+.doc-container{
+    display: grid;
+    flex-direction: column;
+    place-items:center;
+    gap: 16px;
+    margin-top: 16px;
+   
+}
+.doc{
+font-size: 20px;
+line-height: 28px;
+font-weight: 600;
+}
+.booking-system{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+   
+}
+.purple-rec{
+    width: 60px;
+height: 2px;
+flex-shrink: 0;
+background: var(--violet-500, #705DF2);
+
+
+}
+.btns{
+    display: flex;
+    overflow-x: scroll;
+}
+.regular-btn, .saas-btn{
+    color: var(--violet-500, #705DF2);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px; 
+display: inline-flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 24px;
+border: 1px solid var(--violet-500, #705DF2);
+background: var(--violet-100, #E4DFFE);
+margin-top: 40px;
+margin-left: 15px;
+width: 221px;
+height: 48px;
+overflow-x: scroll;
+}
+.saas-btn{
+    color: $primary_1;
+    background: #ffff;
+}
+.get-start-basic{
+color:$color-secondary;
+margin-top: 48px;
+}
+.section{
+    margin-left: 16px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.card-texts{
+    color: $primary_1;
+
+}
+.cards-section{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+    
+}
+.section-rec{
+    width: 328px;
+height: 1px;
+flex-shrink: 0;
+background: var(--violet-100, #E4DFFE);
+
+}
+.section-rec{
+    margin-top: 24px; ;
+}
+.verification-text{
+    font-size: 14px;
+line-height: 20px;
+margin-top: 16px;
+margin-left: 16px;
+}
+.suggest-btns{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin-top: 80px;
+margin-left: 16px;
+}
+.suggest-btn{
+color: var(--violet-500, #705DF2);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px; 
+width: 328px;
+padding: 16px 24px;
+border-radius: 8px;
+border: 1px solid var(--violet-100, #E4DFFE);
+background: #ffff;
+}
+@media screen and (min-width:1440px){
+    .section{margin-left: 320px;
+        margin-right: 320px;
+    }
+    .suggest-btns{
+        flex-direction: row;
+        margin-left: 423px;
+    }
+    .suggest-btn{
+        width: 294px;
+    }
+    .btns{
+        margin-left: 500px;
+    }
+
+}

@@ -1,0 +1,347 @@
+.guide {
+  position: relative;
+}
+.home-rec {
+  width: 258px;
+  height: 240px;
+  flex-shrink: 0;
+  opacity: 0.7;
+  background: linear-gradient(180deg, #ede2ff 0%, #faecff 100%);
+  backdrop-filter: blur(50px);
+  position: absolute;
+  z-index: -1;
+}
+.date {
+  position: absolute;
+  color: var(--Basic-600, #8f9bb3);
+  font-family: Euclid Circular A;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.meet {
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+.meet-image {
+  margin-left: 16px;
+  margin-top: 30px;
+}
+.p {
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+.guide-text {
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 25px;
+  margin-left: 16px;
+}
+.card-share {
+  display: flex;
+  margin-top: 35px;
+  margin-left: 16px;
+}
+.share {
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.card-logo {
+  margin-left: 40px;
+  display: flex;
+  gap: 19px;
+}
+.similar-text {
+  text-align: center;
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 3rem;
+}
+
+.similar-container {
+  margin-left: 16px;
+  margin-top: 40px;
+  display: block;
+}
+.p2 {
+  display: none;
+}
+.p2-2 {
+  display: none;
+}
+.similar-date {
+  color: var(--Basic-600, #8f9bb3);
+  font-family: Euclid Circular A;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.schedule {
+  color: var(--Basic-700, #2e3a59);
+  font-family: Euclid Circular A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.image-1 {
+  margin-left: 16px;
+}
+.meet-image3 {
+  margin-top: 70px;
+}
+footer {
+  background: #0d0659;
+  margin-top: 7rem;
+}
+.wpress {
+  color: var(--text-color-white-ag, #fff);
+  text-align: center;
+  /* Headline/H5-M */
+  font-family: Euclid Circular A;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  padding-top: 56px;
+}
+.wpress2 {
+  color: var(--text-color-white-ag, #fff);
+  text-align: center;
+  font-family: Euclid Circular A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.arrow {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+.buy-button {
+  width: 328px;
+  height: 60px;
+  display: flex;
+  padding: 18px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  background: var(--text-color-white-ag, #fff);
+  color: var(--violet-500, #705df2);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Euclid Circular A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.head-ul {
+  display: none;
+}
+.btn-responsive {
+  display: none;
+}
+.meet-respo {
+  display: none;
+}
+.similar-container2 {
+  display: none;
+}
+.buy-button-respo {
+  display: none;
+}
+.booknetic-wpress {
+  display: none;
+}
+.info {
+  display: none;
+}
+.respo-footer {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .home-rec {
+    width: 695px;
+    height: 530px;
+    margin-left: 112px;
+  }
+  .date {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .meet {
+    display: none;
+  }
+  .meet-respo {
+    color: var(--Basic-700, #2e3a59);
+    font-family: Euclid Circular A;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 141.176% */
+    padding-top: 56px;
+
+    display: flex;
+  }
+  .meet-image {
+    width: 592px;
+    height: 354px;
+    margin-left: 32px;
+  }
+  .meet-container {
+    display: flex;
+  }
+  .icon-rec {
+    margin-top: 32px;
+  }
+  .p {
+    display: none;
+  }
+  .p2 {
+    color: var(--Basic-700, #2e3a59);
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    margin-left: 320px;
+    margin-top: 188px;
+  }
+  .image-1 {
+    width: 800px;
+    height: 491px;
+    flex-shrink: 0;
+    margin-left: 320px;
+    margin-top: 41px;
+  }
+  .date-meet {
+    padding-top: 110px;
+    padding-left: 216px;
+  }
+  .guide-text {
+    color: var(--Basic-700, #2e3a59);
+    /* Headline/H5-M */
+    font-family: Euclid Circular A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    margin-left: 320px;
+    margin-top: 48px;
+  }
+  .p2-2 {
+    color: var(--Basic-700, #2e3a59);
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    margin-left: 320px;
+    margin-top: 32px;
+  }
+  .card-share {
+    margin-top: 56px;
+    margin-left: 320px;
+  }
+  .similar-text {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  .schedule {
+    display: none;
+  }
+  .similar-container {
+    display: flex;
+  }
+  .similar-date {
+    display: none;
+  }
+  .meet-image3 {
+    margin-top: 0px;
+  }
+  .similar-container {
+    display: none;
+  }
+  .similar-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 56px;
+  }
+  .meet-image-respo {
+    width: 384px;
+    flex-shrink: 0;
+  }
+  .p2 {
+    display: inline-block;
+  }
+  .p2-2 {
+    display: inline-block;
+  }
+  .name-surname {
+    color: var(--Basic-700, #2e3a59);
+    /* Subtitle/S1 - M */
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  .info {
+    display: flex;
+    margin-top: 32px;
+  }
+  .author {
+    color: var(--Basic-600, #8f9bb3);
+    /* Subtitle/S2-R */
+    font-family: Euclid Circular A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+}
